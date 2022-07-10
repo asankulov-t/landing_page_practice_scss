@@ -1,0 +1,25 @@
+.img-card__info {
+  
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__icon {
+    border-radius: 50%;
+    background: rgba(88, 190, 191, 0.2);
+    padding: 9px 13px;
+    margin-right: 20px;
+}
+
+.card__info__title{
+    font-weight: 700;
+    line-height: 24px;
+}

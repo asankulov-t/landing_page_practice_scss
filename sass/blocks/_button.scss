@@ -1,0 +1,44 @@
+.button{
+    display: inline-block;
+    height: 58px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border-radius: 29px;
+    background-color: $accent;
+    
+    line-height: 58px;
+    font-weight: 700;
+    color: white;
+    transition: background-color 0.2s ease-in;
+    
+    &:hover{
+        background-color: $accent-hover;
+    }
+}
+.button-white{
+    color: black;
+    background-color: white;
+    transition: background-color 0.2s ease-in;
+
+    &:hover{
+        color: white;
+        background-color: $accent-hover;
+    }
+}
+.button--play{
+    padding-left: 50px;
+    position: relative;
+    &::before{
+        content: '';
+        display: block;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        transform: translateY(-50%);
+        background-image: url('../../img/play.svg');
+        background-size: initial;
+        background-repeat: no-repeat;
+    }
+}

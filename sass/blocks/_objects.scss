@@ -1,0 +1,44 @@
+.objects {
+    margin-bottom: 80px;
+}
+
+
+.objects__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  
+    @media(max-width:1495px) {
+        justify-content: flex-end;
+    }
+}
+
+.objects__img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 550px;
+
+    img {
+        border-radius: 16px;
+    }
+}
+
+.objects__text {
+    width: 374px;
+    padding-left: 180px;
+    padding-right: 140px;
+    box-sizing: content-box;
+    flex-shrink: 0;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.objects__title {
+    margin-bottom: 20px;
+
+}
+

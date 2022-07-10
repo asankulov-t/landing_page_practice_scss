@@ -1,0 +1,42 @@
+.cta {
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cta-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 20px;
+    background-color: #58BEBF;
+}
+.cta__img{
+    margin-top: 60px;
+    padding-top: 25px;
+    padding-right: 25px;
+    background: white;
+    border-radius:  0 20px;
+}
+
+.cta__text{
+    background: url('./../../img/sta/Oval.svg') top right,
+                url('./../../img/sta/OvalBtn.svg') bottom left -183px;
+    background-repeat: no-repeat;
+    width: 555px;
+    padding-left: 95px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .cta__title{
+        margin-bottom: 15px;
+    }
+    p{
+        width: 315px;
+    }
+}
+.button__row{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 20px;
+}
